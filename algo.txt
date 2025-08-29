@@ -1,1 +1,7 @@
-
+sudo apt update
+sudo apt install nasm -y
+nasm -v
+mkdir ejemplo
+cd /workspace/"sustituir_con_nombre_repositorio"/ejemplo/
+pwd
+touch ejemplo.asm
